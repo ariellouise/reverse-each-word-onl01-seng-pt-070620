@@ -6,9 +6,10 @@
 #sentence2- "Hi again, just making sure it's reversed!"
 
 def reverse_each_word(sentence)
-  array = sentence.split
-  end_sentence = []
-  array.collect do |word|
-  end_sentence.push(word.reverse)
-end
+    array = sentence.split
+    finalSentence = []
+    array.collect do |word|
+    finalSentence.push(word.reverse)
+  end
+  return finalSentence.join(" ")
 end
