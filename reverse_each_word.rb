@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
   array = sentence.split
   end_sentence = []
   array.collect do |word|
-    
+  end_sentence.push(word.reverse)
 end
