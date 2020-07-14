@@ -2,6 +2,9 @@
 
 #.split to turn string into an Array
 
+#sentence1 -"Hello there, and how are you?"
+#sentence2- ""
+
 def reverse_each_word
   
   
